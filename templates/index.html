@@ -6,24 +6,22 @@
 
 </head>
   <body style="background-color:grey;"> 
-	  <h3> For more Info and Source-code click <a href="https://github.com/vishalkadu/wine-quality-prediction/">Github-link</a></h2>
-  <div class="login" id ="look">
-	<h1>Wine Quality Prediction</h1>
-
-     <!-- Main Input For Receiving Query to our ML -->
+    <div class="lwq" id ="look">
+    <h1>Wine Quality Prediction</h1>
+    <h4> For more Details and Source-code click <a href="https://github.com/vishalkadu/wine-quality-prediction/">Github-link</a></h4>
     <form action="/predict"method="post">
-    <h3>Enter value of following,</h3><br>
-    <input type="text" name="fixed-acidity" placeholder="fixed-acidity" required="required" /><br><br>
-    <input type="text" name="volatile-acidity" placeholder="volatile-acidity" required="required" /><br><br>
-		<input type="text" name="citric-acid" placeholder="citric-acid" required="required" /><br><br>
-    <input type="text" name="residual-sugar" placeholder="residual-sugar" required="required" /><br><br>
-    <input type="text" name="chlorides" placeholder="chlorides" required="required" /><br><br>
-    <input type="text" name="free-sulfur-dioxide" placeholder="free-sulfur-dioxide" required="required" /><br><br>
-    <input type="text" name="total-sulfur-dioxidee" placeholder="total-sulfur-dioxide" required="required" /><br><br>
-		<input type="text" name="density" placeholder="density" required="required" /><br><br>
+    <h3>Enter the value of following,</h3>
+    <input type="text" name="fixed-acidity" placeholder="Fixed Acidity" required="required" /><br><br>
+    <input type="text" name="volatile-acidity" placeholder="Volatile Acidity" required="required" /><br><br>
+		<input type="text" name="citric-acid" placeholder="Citric Acid" required="required" /><br><br>
+    <input type="text" name="residual-sugar" placeholder="Residual Sugar" required="required" /><br><br>
+    <input type="text" name="chlorides" placeholder="Chlorides" required="required" /><br><br>
+    <input type="text" name="free-sulfur-dioxide" placeholder="Free Sulfur Dioxide" required="required" /><br><br>
+    <input type="text" name="total-sulfur-dioxidee" placeholder="Total Sulfur Dioxide" required="required" /><br><br>
+		<input type="text" name="density" placeholder="Density" required="required" /><br><br>
     <input type="text" name="pH" placeholder="pH" required="required" /><br><br>
-    <input type="text" name="sulphates" placeholder="sulphates" required="required" /><br><br>
-		<input type="text" name="alcohol" placeholder="alcohol" required="required" /><br><br>
+    <input type="text" name="sulphates" placeholder="Sulphates" required="required" /><br><br>
+		<input type="text" name="alcohol" placeholder="Alcohol" required="required" /><br><br>
 
 
    <button type="submit"> Predict</button>
@@ -32,11 +30,11 @@
    <style>
    #look {
     position: absolute;
-    width: 300px;
+    width: 400px;
     height: 500px;
-    z-index: 18;
-    top: 16%;
-    left: 50%;
+    z-index: 22;
+    top: 20%;
+    left: 45%;
     margin: -120px 0 0 -120px;
   }</style>
 
