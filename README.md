@@ -27,9 +27,20 @@ here we have 11 independent variables and 1 dependant/Target variable that's qua
 
 11. density.
 
+By using Exploratory Data Analysis, the relationship between the quality of wine with its chemical compositions can be found out.
+
+After that, we partition the wine into two categories, i.e., Good and Not Good/Low Quality.
+
+after applying different machine learning algorithms we get different model accuracies such as,
+
+1. Logistic regression with 87.61%,
+
+2. Decision Tree Classifier with 87.93%,
+
+3. Support Vector Machine with 89.52%,
+
+4. k-nearest neighbors (KNN) with 88.57% accuracy.
+
 ![image](https://user-images.githubusercontent.com/86619476/139601676-2c6b50a0-95c8-434e-b215-603eff9a7c02.png)
 
-By using Exploratory Data Analysis, the relationship between the quality of wine with its chemical compositions can be found out.
-After that, we partition the wine into two categories, i.e., Good and Not Good/Low Quality.
-after applying different machine learning algorithms we get different model accuracies such as,
-Logistic regression with 87.61%, Decision Tree Classifier with 87.93%, Support Vector Machine with 89.52%, and k-nearest neighbors (KNN) with 88.57% accuracy.
+### Thank You!
