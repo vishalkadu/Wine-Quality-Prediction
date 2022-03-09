@@ -39,8 +39,6 @@ after applying different machine learning algorithms we get different model accu
 
 3. Support Vector Machine with 89.52%,
 
-4. k-nearest neighbors (KNN) with 88.57% accuracy.
-
 ![image](https://user-images.githubusercontent.com/86619476/139601676-2c6b50a0-95c8-434e-b215-603eff9a7c02.png)
 
 ### Thank You!
