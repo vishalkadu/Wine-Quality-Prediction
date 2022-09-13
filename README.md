@@ -1,11 +1,11 @@
-### Wine Quality Prediction
+### Wine Quality Predicton
 
 #### Click link to view app https://app-wine-quality-prediction.herokuapp.com/
 
 The primary extend is to find out the quality of Wine based on the components given within the dataset.
 here we have 11 independent variables and 1 dependant/Target variable that's quality. 
 
-1. Volatile acidity is the gaseous acid present in wine.
+1. Volatile acidity is the gaseous acid present in the wine.
 
 2. fixed acidity: Primarily fixed acids found in wine are tartaric, succinic, citric, and malic.
 
