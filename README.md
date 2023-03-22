@@ -1,7 +1,5 @@
 ### Wine Quality Predicton
 
-#### Click link to view app https://app-wine-quality-prediction.herokuapp.com/
-
 The primary extend is to find out the quality of Wine based on the components given within the dataset.
 here we have 11 independent variables and 1 dependant/Target variable that's quality. 
 
